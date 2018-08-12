@@ -1,352 +1,140 @@
 /*
 * Root
 */
-html {
-  height: 100%;
-  font-size: 62.5%; /* font-size 1em = 10px on default browser settings */
-}
 
+html,
 body {
-  height: 100%;
-  width: 100%;
-  background-color: #f2f2f2;
+  background: #0072ff;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #0072ff, #00c6ff);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #0072ff, #00c6ff);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #333333;
 }
 
 /*
-* Page Header + Cover
+* Main Content
 */
-.header {
-  height: 100%;
-  width: 100%;
-  display: table;
-  position: relative;
-  background: #192c6d;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #008080, #192c6d);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #008080, #192c6d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  color: #fff;
-}
 
-.container {
-  display: table-cell;
-  vertical-align: middle;
+#title-container {
   text-align: center;
+  margin-top: -30px;
 }
 
-.tribute-name-container {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+#title {
+  font-family: Work Sans, sans-serif;
+  font-size: 60px;
+  font-weight: 900;
 }
 
-#tribute-name {
-  font-family: "Varela Round", sans-serif;
-  font-size: 4.5rem;
-  font-weight: bold;
-  color: #fff;
-  letter-spacing: 1px;
-  text-shadow: 2px 2px 2px #000;
-  padding: 0;
-  margin: 0;
+#title-container p {
+  font-family: Bitter, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: -35px;
 }
 
-#tribute-tag {
-  font-family: "Lato", sans-serif;
-  color: #fff;
-  padding: 0;
-  margin-top: 0.5em;
-  margin-right: 0;
-  margin-bottom: 1.5rem;
-  margin-left: 0;
-  text-shadow: 2px 2px 2px #000;
-}
-
-#tribute-img-container-large {
-  width: 65rem;
-  height: 40rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#tribute-img-container-large img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 1.5rem;
-}
-
-#tribute-img-container-profile {
-  width: 15rem;
-  height: 15rem;
-  margin-left: auto;
-  margin-right: auto;
-  display: none;
-}
-
-#tribute-img-container-profile img {
-  max-width: 100%;
-  height: 15rem;
-  border-radius: 50%;
-}
-
-.image-table caption {
-  font-family: "Roboto", sans-serif;
-  text-align: center;
-  font-size: 1.2rem;
-  color: #fff;
-}
-
-/*
-* Timeline
-*/
-.timeline-container {
-  margin-top: 7.5rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.timeline-heading {
-  margin-bottom: 5rem;
-}
-
-.timeline-heading h3 {
-  font-family: "Lato", sans-serif;
-  font-weight: bold;
-  text-align: center;
-  color: #302428; /* Black */
-}
-
-.timeline-list {
-  list-style: none;
-}
-
-.timeline-date {
-  width: 7.5rem;
-  height: 7.5rem;
-  border-radius: 50%;
-  background-color: #bc642c; /* Sienna */
-  display: table;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.timeline-date p {
-  display: table-cell;
-  vertical-align: middle;
-  font-family: "Lato", sans-serif;
-  font-size: 2rem;
-  font-weight: bold;
-  text-align: center;
-  color: #fff;
-}
-
-.vertical-line {
-  width: 0px;
-  height: 3rem;
+#container {
+  max-width: 900px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: #988272 0.75px solid;
+  height: auto;
+  margin: 0 auto;
+  background: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.15), 0 15px 15px rgba(0, 0, 0, 0.15);
 }
 
-.timeline-event {
-  width: 75%;
-  height: 12.5rem;
-  display: table;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #dad3c9; /* Light Grey */
+#img-div {
+  padding: 50px 50px 25px 50px;
 }
 
-.timeline-event p {
-  display: table-cell;
-  vertical-align: middle;
-  font-family: "Roboto", sans-serif;
-  font-size: 1.75rem;
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+#img-caption {
+  font-family: Bitter, sans-serif;
+  font-size: 15px;
   text-align: center;
-  padding: 1.5rem;
-  color: #302428; /* Black */
+  margin-top: 5px;
 }
 
-.quote {
-  width: 75%;
-  height: 10rem;
-  display: table;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
+#timeline p{
+  font-family: Bitter, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: justify;
+  margin-left: 50px;
 }
 
-.quote p {
-  font-family: "Roboto", sans-serif;
-  font-size: 1.75rem;
-  padding: 1rem;
-  color: #302428; /* Black */
+ul {
+  font-family: Bitter, sans-serif;
+  font-size: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: justify;
+}
+
+li {
+  padding-bottom: 10px;
+}
+
+#timeline span {
+  font-weight: 700;
 }
 
 blockquote {
-  background-color: #988272; /* Gray */
-  border-left: #bc642c 0.5rem solid; /* Sienna */
+  background-color: rgba(188, 100, 44, 0.5);
+  padding: 10px;
+  border-left: #bc642c 5px solid;
+  margin: 0 50px 0 50px;
+  font-family: Bitter, sans-serif;
+  font-size: 15px;
 }
 
-blockquote footer {
-  color: #302428; /* Black */
-}
-
-blockquote cite {
-  font-family: "Roboto", sans-serif;
-  font-size: 1.5rem;
-}
-
-.wiki-link {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-}
-
-.wiki-link p {
-  font-family: "Roboto", sans-serif;
-  font-size: 2rem;
+#tribute-link-container p {
+  font-family: Bitter, sans-serif;
+  font-size: 20px;
   text-align: center;
-  padding: 1rem;
-  color: #302428; /* Black */
+  padding: 10px 0 25px 0;
 }
 
-.wiki-link a {
- font-weight: bold;
- color: #192c6d;
+#tribute-link {
+  font-weight: bold;
+  color: #333333;
+  text-decoration: underline;
 }
 
-.wiki-link a:hover {
-  color: #bc642c; /* Sienna */
-}
-
-/** Borders **/
-.gray-border {
-  border-color: #988272; /* Gray */
-  border-width: 1px;
-  border-style: solid;
-  border-radius: 5px;
-}
-
-.sienna-border {
-  border-color: #bc642c; /* Sienna */
-  border-width: 3px;
-  border-style: solid;
-  border-radius: 5px;
+#tribute-link:hover {
+  color: #bc642c;
 }
 
 /*
 * Footer
 */
+
 .footer {
-  width: 100%;
-  margin-top: 2.5rem;
-  padding: 1.5rem 0;
-  background-color: #192c6d; /* Midnight Blue */
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .footer p {
-  font-family: "Roboto", sans-serif;
-  font-size: 1em;
+  font-family: Work Sans, sans-serif;
+  font-size: 20px;
+  font-weight: 900;
   text-align: center;
-  display: block;
   margin: auto;
-  color: #fff;
+  color: #333333;
 }
 
 .footer a {
-  color: #fff;
+  color: #333333;
   text-decoration: underline;
 }
 
 .footer a:hover {
-  color: #bc642c; /* Sienna */
+  color: #bc642c;
 }
-
-/*
-* Scroll Down Button
-*/
-#page-scroll-container {
-  margin-bottom: 2.5rem;
-}
-
-.circle {
-  border: 2px solid #fff;
-  border-radius: 50%;
-  display: inline-block;
-  width: 6.75rem;
-  height: 6.75rem;
-  line-height: 11rem;
-  font-size: 6rem;
-  text-align: center;
-  overflow: hidden;
-  margin-top: 7rem;
-}
-
-.circle .fa {
-  color: #fff;
-  margin: 0;
-  padding: 0;
-  animation: animate 1s linear infinite;
-}
-
-@keyframes animate {
-  0% {
-    transform: translateY(-50px);
-    text-shadow: 0 50px 0 #fff;
-  }
-  20% {
-    transform: translateY(0px);
-    text-shadow: 0 10px 0 #fff;
-  }
-  40% {
-    transform: translateY(0px);
-    text-shadow: 0 -10px 0 #fff;
-  }
-  60% {
-    transform: translateY(0px);
-    text-shadow: 0 0px 0 #fff;
-  }
-  80% {
-    transform: translateY(0px);
-    text-shadow: 0 50px 0 #fff;
-  }
-  100% {
-    transform: translateY(100px);
-    text-shadow: 0 -50px 0 #fff;
-  }
-}
-
-
-/*
-* Media Queries
-*/
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-/* Styles */
-#tribute-name {
-  font-size: 3rem;
-}
-
-#tribute-img-container-large {
-  display: none;
-}
-
-#tribute-img-container-profile {
-  display: block;
-}
-
-.circle {
-  margin-top: 15rem;
-}
-}
-
-

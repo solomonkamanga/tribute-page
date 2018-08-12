@@ -5,397 +5,102 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>freeCodeCamp: Build a Tribute Page</title>
-  <link rel="shortcut icon" href="img/favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Lato|Roboto:300|Varela+Round" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel="shortcut icon" href="favicon.ico">
   <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Bitter:400,700|Work+Sans:400,900" rel="stylesheet">
 </head>
 
 <body>
-  <header class="header">
 
-    <div class="container">
-      <!-- name-row -->
-      <div id="name-row" class="row">
-        <!-- tribute-name-container -->
-        <div class="tribute-name-container">
-          <h1 id="tribute-name">Prof. Nii Narku Quaynor</h1>
-          <h3 id="tribute-tag">Africa's Father of the Internet</h3>
-        </div>
-        <!-- end of tribute-name-container -->
-      </div>
-      <!-- end of name-row -->
+  <main id="main">
 
-      <!-- img-row -->
-      <div id="img-row" class="row col-lg-8 col-lg-offset-2">
-        <!-- tribute-img-container-large -->
-        <div id="tribute-img-container-large">
-          <table class="image-table">
-            <caption align="bottom">Prof. Quaynor at the 2013 Internet Hall of Fame ceremony where he was an inductee.</caption>
-            <tr>
-              <td><img src="http://res.cloudinary.com/solomonkamanga/image/upload/c_scale,h_802,q_100,r_0,w_1200/v1506807107/Nii_Quaynor_002_ivvkxm.jpg"
-                  alt="Prof. Nii Narku Quaynor"></td>
-            </tr>
-          </table>
-        </div>
-        <!-- end of tribute-img-container-large -->
-
-        <!-- tribute-img-container-profile -->
-        <div id="tribute-img-container-profile">
-          <table class="image-table">
-            <caption align="bottom">Prof. Quaynor at the 2013 Internet Hall of Fame ceremony where he was an inductee.</caption>
-            <tr>
-              <td><img src="http://res.cloudinary.com/solomonkamanga/image/upload/c_scale,h_802,q_100,r_0,w_1200/v1506807107/Nii_Quaynor_002_ivvkxm.jpg"
-                  alt="Prof. Nii Narku Quaynor"></td>
-            </tr>
-          </table>
-        </div>
-        <!-- end of tribute-img-container-profile -->
-
-        <!-- page-scroll-container -->
-        <div id="page-scroll-container">
-          <a href="#timeline">
-            <div class="circle">
-              <i class="fa fa-angle-down" aria-hidden="true"></i>
-            </div>
-          </a>
-        </div>
-        <!-- end of page-scroll-container -->
-      </div>
-      <!-- end of img-row -->
+    <!-- Title -->
+    <div id="title-container">
+      <h2 id="title">Prof. Nii Narku Quaynor</h2>
+      <p>Africa's Father of the Internet</p>
     </div>
-    <!-- end of container -->
-  </header>
 
-  <section class="section" id="timeline">
-    <!-- timeline-container -->
-    <div class="timeline-container">
-      <div class="timeline-heading">
-        <h3>Here's a timeline of Professor Quaynor's life.</h3>
+    <div id="container">
+      <!-- Image -->
+      <div id="img-div">
+        <img id="image" src="img/nii-quaynor-1.jpg" alt="Picture of Prof. Nii Narku Quaynor" />
+        <p id="img-caption">Professor Quaynor</p>
       </div>
 
-      <!-- End of timeline -->
-      <ul class="timeline-list">
-        <!-- Start of 1st Event -->
-        <li>
-          <!-- timeline-date -->
-          <div class="timeline-date">
-            <p>1949
-              <p>
-          </div>
-          <!--End of timeline-date -->
+      <!-- Tribute Information -->
+      <div id="tribute-info">
+        <div id="timeline">
+          <p>Here's a timeline of Professor Quaynor's life:</p>
+          <ul>
+            <li>
+              <span>1949</span> - Born in Accra, Ghana, West Africa. And he attended Adisadel College and Achimota School.
+            </li>
+            <li>
+              <span>1973</span> - Prof. Quaynor graduated in Engineering Science from Dartmouth College in 1972 and received a 
+              Bachelor of Engineering degree from the Thayer School of Engineering there in 1973.
+            </li>
+            <li>
+              <span>1974</span> - Studied Computer Science and obtained an Master of Science degree from the State University of
+              New York at StonyBrook.
+            </li>
+            <li>
+              <span>1977</span> - Obtained an Ph.D. from the State University of New York at StonyBrook.
+            </li>
+            <li>
+              <span>1994</span> - Prof. Quaynor established the first internet service provider in Ghana and West Africa, operated
+              by Network Computer Systems Ltd. He then assisted in implementing the transformational new technology throughout
+              sub-Saharan Africa
+            </li>
+            <li>
+              <span>2000</span> - Dr. Quaynor was elected as the At-Large Director of the African region to the ICANN Board. And
+              served until June, 2003.
+            </li>
+            <li>
+              <span>2001</span> - He was the founding chairman of AFRINIC, the regional Internet registry (RIR) for Africa.
+            </li>
+            <li>
+              <span>2007</span> - In December 2007, Quaynor was awarded the Jonathan B. Postel Service Award from the IETF (The Internet Engineering
+              Task Force).
+            </li>
+            <li>
+              <span>2013</span> - On 26 June 2013, he was inducted into the Internet Hall of Fame by the Internet Society.
+            </li>
+            <li>
+              <span>2015</span> - He was awarded the 2015 ICANN Multi-stakeholder Ethos Award together with Cheryl Langdon Orr.
+            </li>
+          </ul>
+        </div>
 
-          <!-- vertical-line -->
-          <div>
-            <div class="vertical-line"></div>
-          </div>
-          <!-- End of vertical-line -->
+        <!-- Quote -->
+        <blockquote>
+          <p>“Africa will miss a great development opportunity in much the same way Africa lost on the industrial revolution,
+            unless serious and truly committed efforts are made by Africa to address the rapid expansion on the internet-user
+            gap between Africa and industrialised countries”</p>
+          <footer>
+            <cite>Professor Nii Narku Quaynor, circa 2014</cite>
+          </footer>
+        </blockquote>
 
-          <!-- timeline-event -->
-          <div class="timeline-event gray-border">
-            <p>Born in Accra, Ghana, West Africa. And he attended Adisadel College and Achimota School.</p>
-          </div>
-          <!-- End of timeline-event -->
-        </li>
-        <!-- End of 1st Event -->
-
-        <!-- vertical-line -->
-        <li>
-          <div class="vertical-line"></div>
-        </li>
-        <!-- End of vertical-line -->
-
-        <!-- Start of 2nd Event -->
-        <li>
-          <!-- timeline-date -->
-          <div class="timeline-date">
-            <p>1973</p>
-          </div>
-          <!--End of timeline-date -->
-
-          <!-- vertical-line -->
-          <div>
-            <div class="vertical-line"></div>
-          </div>
-          <!-- End of vertical-line -->
-
-          <!-- timeline-event -->
-          <div class="timeline-event gray-border">
-            <p>Prof. Quaynor graduated in Engineering Science from Dartmouth College in 1972 and received a Bachelor of Engineering
-              degree from the Thayer School of Engineering there in 1973.</p>
-          </div>
-          <!-- End of timeline-event -->
-        </li>
-        <!-- End of 2nd Event -->
-
-        <!-- vertical-line -->
-        <li>
-          <div class="vertical-line"></div>
-        </li>
-        <!-- End of vertical-line -->
-
-        <!-- Start of 3rd Event -->
-        <li>
-          <!-- timeline-date -->
-          <div class="timeline-date">
-            <p>1974</p>
-          </div>
-          <!--End of timeline-date -->
-
-          <!-- vertical-line -->
-          <div>
-            <div class="vertical-line"></div>
-          </div>
-          <!-- End of vertical-line -->
-
-          <!-- timeline-event -->
-          <div class="timeline-event gray-border">
-            <p>Studied Computer Science and obtained an Master of Science degree from the State University of New York at StonyBrook.</p>
-          </div>
-          <!-- End of timeline-event -->
-        </li>
-        <!-- End of 3rd Event -->
-
-        <!-- vertical-line -->
-        <li>
-          <div class="vertical-line"></div>
-        </li>
-        <!-- End of vertical-line -->
-
-        <!-- Start of 4th Event -->
-        <li>
-          <!-- timeline-date -->
-          <div class="timeline-date">
-            <p>1977</p>
-          </div>
-          <!--End of timeline-date -->
-
-          <!-- vertical-line -->
-          <div>
-            <div class="vertical-line"></div>
-          </div>
-          <!-- End of vertical-line -->
-
-          <!-- timeline-event -->
-          <div class="timeline-event gray-border">
-            <p>Obtained an Ph.D. from the State University of New York at StonyBrook.</p>
-          </div>
-          <!-- End of timeline-event -->
-        </li>
-        <!-- End of 4th Event -->
-
-        <!-- vertical-line -->
-        <li>
-          <div class="vertical-line"></div>
-        </li>
-        <!-- End of vertical-line -->
-
-        <!-- Start of 5th Event -->
-        <li>
-          <!-- timeline-date -->
-          <div class="timeline-date">
-            <p>1994</p>
-          </div>
-          <!--End of timeline-date -->
-
-          <!-- vertical-line -->
-          <div>
-            <div class="vertical-line"></div>
-          </div>
-          <!-- End of vertical-line -->
-
-          <!-- timeline-event -->
-          <div class="timeline-event gray-border">
-            <p>Prof. Quaynor established the first internet service provider in Ghana and West Africa, operated by Network Computer
-              Systems Ltd. He then assisted in implementing the transformational new technology throughout sub-Saharan Africa.</p>
-          </div>
-          <!-- End of timeline-event -->
-        </li>
-        <!-- End of 5th Event -->
-
-        <!-- vertical-line -->
-        <li>
-          <div class="vertical-line"></div>
-        </li>
-        <!-- End of vertical-line -->
-
-        <!-- Start of 6th Event -->
-        <li>
-          <!-- timeline-date -->
-          <div class="timeline-date">
-            <p>2000</p>
-          </div>
-          <!--End of timeline-date -->
-
-          <!-- vertical-line -->
-          <div>
-            <div class="vertical-line"></div>
-          </div>
-          <!-- End of vertical-line -->
-
-          <!-- timeline-event -->
-          <div class="timeline-event gray-border">
-            <p>Dr. Quaynor was elected as the At-Large Director of the African region to the ICANN Board. And served until June,
-              2003.
-            </p>
-          </div>
-          <!-- End of timeline-event -->
-        </li>
-        <!-- End of 6th Event -->
-
-        <!-- vertical-line -->
-        <li>
-          <div class="vertical-line"></div>
-        </li>
-        <!-- End of vertical-line -->
-
-        <!-- Start of 7th Event -->
-        <li>
-          <!-- timeline-date -->
-          <div class="timeline-date">
-            <p>2001</p>
-          </div>
-          <!--End of timeline-date -->
-
-          <!-- vertical-line -->
-          <div>
-            <div class="vertical-line"></div>
-          </div>
-          <!-- End of vertical-line -->
-
-          <!-- timeline-event -->
-          <div class="timeline-event gray-border">
-            <p>He was the founding chairman of AFRINIC, he regional Internet registry (RIR) for Africa.</p>
-          </div>
-          <!-- End of timeline-event -->
-        </li>
-        <!-- End of 7th Event -->
-
-        <!-- vertical-line -->
-        <li>
-          <div class="vertical-line"></div>
-        </li>
-        <!-- End of vertical-line -->
-
-        <!-- Start of 8th Event -->
-        <li>
-          <!-- timeline-date -->
-          <div class="timeline-date">
-            <p>2007</p>
-          </div>
-          <!--End of timeline-date -->
-
-          <!-- vertical-line -->
-          <div>
-            <div class="vertical-line"></div>
-          </div>
-          <!-- End of vertical-line -->
-
-          <!-- timeline-event -->
-          <div class="timeline-event gray-border">
-            <p>In December 2007, Quaynor was awarded the Jonathan B. Postel Service Award from the IETF (The Internet Engineering
-              Task Force).</p>
-          </div>
-          <!-- End of timeline-event -->
-        </li>
-        <!-- End of 8th Event -->
-
-        <!-- vertical-line -->
-        <li>
-          <div class="vertical-line"></div>
-        </li>
-        <!-- End of vertical-line -->
-
-        <!-- Start of 9th Event -->
-        <li>
-          <!-- timeline-date -->
-          <div class="timeline-date">
-            <p>2013</p>
-          </div>
-          <!--End of timeline-date -->
-
-          <!-- vertical-line -->
-          <div>
-            <div class="vertical-line"></div>
-          </div>
-          <!-- End of vertical-line -->
-
-          <!-- timeline-event -->
-          <div class="timeline-event gray-border">
-            <p>On 26 June 2013, he was inducted into the Internet Hall of Fame by the Internet Society.</p>
-          </div>
-          <!-- End of timeline-event -->
-        </li>
-        <!-- End of 9th Event -->
-
-        <!-- vertical-line -->
-        <li>
-          <div class="vertical-line"></div>
-        </li>
-        <!-- End of vertical-line -->
-
-        <!-- Start of 10th Event -->
-        <li>
-          <!-- timeline-date -->
-          <div class="timeline-date">
-            <p>2015</p>
-          </div>
-          <!--End of timeline-date -->
-
-          <!-- vertical-line -->
-          <div>
-            <div class="vertical-line"></div>
-          </div>
-          <!-- End of vertical-line -->
-
-          <!-- timeline-event -->
-          <div class="timeline-event gray-border">
-            <p>He was awarded the 2015 ICANN Multi-stakeholder Ethos Award together with Cheryl Langdon Orr.</p>
-          </div>
-          <!-- End of timeline-event -->
-        </li>
-        <!-- End of 10th Event -->
-
-        <li>
-          <!-- Quote -->
-          <div class="quote">
-            <blockquote>
-              <p>“Africa will miss a great development opportunity in much the same way Africa lost on the industrial revolution,
-                unless serious and truly committed efforts are made by Africa to address the rapid expansion on the internet-user
-                gap between Africa and industrialised countries”</p>
-              <footer>
-                <cite>Professor Nii Narku Quaynor, circa 2014</cite>
-              </footer>
-            </blockquote>
-          </div>
-          <!-- End of Quote -->
-        </li>
-      </ul>
-      <!-- End of timeline -->
-
-      <!-- Wikipedia & ICANN Wiki links -->
-      <div class="wiki-link">
-        <p>If you'd like to read more about Prof. Nii Narku Quaynor: <a href="https://en.wikipedia.org/wiki/Nii_Quaynor" target="_blank">Wikipedia</a>          | <a href="https://icannwiki.org/Nii_Quaynor" target="_blank">ICANN Wiki</a></p>
+        <!-- Wikipedia link -->
+        <div id="tribute-link-container">
+          <p>If you'd like to read more about Prof. Nii Narku Quaynor:
+            <a id="tribute-link" href="https://en.wikipedia.org/wiki/Nii_Quaynor" target="_blank">Wikipedia</a>
+          </p>
+        </div>
       </div>
-      <!-- Wikipedia & ICANN Wiki links -->
     </div>
-    <!-- End of timeline-container class -->
-  </section>
+  </main>
 
   <!-- Footer -->
   <footer>
     <div class="footer">
-      <p>Designed &amp; coded by <a href="https://solomonkamanga.github.io" target="_blank">Solomon M. Kamanga</a>
+      <p>Designed &amp; coded by
+        <a href="https://solomonkamanga.github.io" target="_blank">Solomon M. Kamanga</a>
     </div>
   </footer>
-  <!-- End of Footer -->
 
-  <!-- JavaScript -->
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-
-  <!-- Custom JavaScript for the Smooth Scrolling -->
-  <script src="js/index.js"></script>
+  <!-- Test Suite -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
 </body>
 
 </html>
