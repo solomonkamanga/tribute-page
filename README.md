@@ -1,6 +1,6 @@
-# Free Code Camp - Build a Tribute Page
+# freeCodeCamp - Build a Tribute Page
 
-Tribute webpage created as part of the Build a Tribute Page challenge from [Free Code Camp](https://www.freecodecamp.org). It is a tribute page for Professor Nii Narku Quaynor.
+Tribute webpage created as part of the Build a Tribute Page challenge from [freeCodeCamp](https://www.freecodecamp.org). It is a tribute page for Professor Nii Narku Quaynor.
 
 Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/zNqgVx.
 
